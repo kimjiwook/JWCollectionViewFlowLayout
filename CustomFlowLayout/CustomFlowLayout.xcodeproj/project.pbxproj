@@ -17,6 +17,7 @@
 		A36464BF256CF0AD00018FD1 /* sampleVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36464BE256CF0AD00018FD1 /* sampleVM.swift */; };
 		A38DEC53256D01FB00D392EB /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38DEC51256D01FB00D392EB /* SampleCollectionViewCell.swift */; };
 		A38DEC54256D01FB00D392EB /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38DEC52256D01FB00D392EB /* SampleCollectionViewCell.xib */; };
+		A38DEC57256D07BD00D392EB /* UICollectionView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38DEC56256D07BD00D392EB /* UICollectionView+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A36464BE256CF0AD00018FD1 /* sampleVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleVM.swift; sourceTree = "<group>"; };
 		A38DEC51256D01FB00D392EB /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 		A38DEC52256D01FB00D392EB /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		A38DEC56256D07BD00D392EB /* UICollectionView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A36464BA256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift */,
+				A38DEC56256D07BD00D392EB /* UICollectionView+Extention.swift */,
 			);
 			path = CustomLayout;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				A36464BB256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift in Sources */,
 				A38DEC53256D01FB00D392EB /* SampleCollectionViewCell.swift in Sources */,
 				A36464A7256CEEAA00018FD1 /* SceneDelegate.swift in Sources */,
+				A38DEC57256D07BD00D392EB /* UICollectionView+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,10 @@ class SampleCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        /// #. 라운드, 테투리 처리
+        self.layer.cornerRadius = 8
+        self.clipsToBounds = true
     }
 
     
