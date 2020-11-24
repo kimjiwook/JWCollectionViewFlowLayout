@@ -15,6 +15,8 @@
 		A36464B1256CEEAC00018FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36464AF256CEEAC00018FD1 /* LaunchScreen.storyboard */; };
 		A36464BB256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36464BA256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift */; };
 		A36464BF256CF0AD00018FD1 /* sampleVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36464BE256CF0AD00018FD1 /* sampleVM.swift */; };
+		A38DEC53256D01FB00D392EB /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38DEC51256D01FB00D392EB /* SampleCollectionViewCell.swift */; };
+		A38DEC54256D01FB00D392EB /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38DEC52256D01FB00D392EB /* SampleCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A36464B2256CEEAC00018FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A36464BA256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		A36464BE256CF0AD00018FD1 /* sampleVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleVM.swift; sourceTree = "<group>"; };
+		A38DEC51256D01FB00D392EB /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		A38DEC52256D01FB00D392EB /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				A36464AF256CEEAC00018FD1 /* LaunchScreen.storyboard */,
 				A36464B2256CEEAC00018FD1 /* Info.plist */,
 				A36464BE256CF0AD00018FD1 /* sampleVM.swift */,
+				A38DEC51256D01FB00D392EB /* SampleCollectionViewCell.swift */,
+				A38DEC52256D01FB00D392EB /* SampleCollectionViewCell.xib */,
 			);
 			path = CustomFlowLayout;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			files = (
 				A36464B1256CEEAC00018FD1 /* LaunchScreen.storyboard in Resources */,
 				A36464AE256CEEAC00018FD1 /* Assets.xcassets in Resources */,
+				A38DEC54256D01FB00D392EB /* SampleCollectionViewCell.xib in Resources */,
 				A36464AC256CEEAA00018FD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +162,7 @@
 				A36464BF256CF0AD00018FD1 /* sampleVM.swift in Sources */,
 				A36464A5256CEEAA00018FD1 /* AppDelegate.swift in Sources */,
 				A36464BB256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift in Sources */,
+				A38DEC53256D01FB00D392EB /* SampleCollectionViewCell.swift in Sources */,
 				A36464A7256CEEAA00018FD1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
