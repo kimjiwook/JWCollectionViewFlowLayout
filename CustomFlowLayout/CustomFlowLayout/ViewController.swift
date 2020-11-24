@@ -102,7 +102,7 @@ extension ViewController {
         var result = [sampleVM]()
         
         // 반복해서 만들어 주기
-        for i in 1 ... 30 {
+        for i in 1 ... 100 {
             let vm = sampleVM()
             vm.docId = "\(i)"
             
