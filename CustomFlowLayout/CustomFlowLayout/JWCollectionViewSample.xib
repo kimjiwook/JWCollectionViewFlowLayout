@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JWCollectionViewSample" customModule="CustomFlowLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="mainCollectionView" destination="FRR-Tc-c3B" id="oBS-7N-Ppv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1J-b2-iON">
+                    <rect key="frame" x="0.0" y="150" width="414" height="72"/>
+                    <string key="text">Custom
+UICollectionViewFlowLayout
+Sample</string>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="FRR-Tc-c3B">
+                    <rect key="frame" x="0.0" y="232" width="414" height="664"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewLayout key="collectionViewLayout" id="o0S-iN-Grc" customClass="JwCollectionViewLayout" customModule="CustomFlowLayout" customModuleProvider="target"/>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="d1J-b2-iON" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0UN-5w-LHw"/>
+                <constraint firstItem="FRR-Tc-c3B" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2xV-tJ-13k"/>
+                <constraint firstItem="FRR-Tc-c3B" firstAttribute="top" secondItem="d1J-b2-iON" secondAttribute="bottom" constant="10" id="4T9-fU-UPK"/>
+                <constraint firstAttribute="trailing" secondItem="d1J-b2-iON" secondAttribute="trailing" id="N41-5U-CPT"/>
+                <constraint firstItem="d1J-b2-iON" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="RA9-6k-NpL"/>
+                <constraint firstAttribute="trailing" secondItem="FRR-Tc-c3B" secondAttribute="trailing" id="Tks-Fc-gKr"/>
+                <constraint firstItem="d1J-b2-iON" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lh3-LX-WiL"/>
+                <constraint firstAttribute="bottom" secondItem="FRR-Tc-c3B" secondAttribute="bottom" id="o4d-Yc-G3e"/>
+            </constraints>
+            <point key="canvasLocation" x="46" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -15,6 +15,21 @@
 		A36464B1256CEEAC00018FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36464AF256CEEAC00018FD1 /* LaunchScreen.storyboard */; };
 		A36464BB256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36464BA256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift */; };
 		A36464BF256CF0AD00018FD1 /* sampleVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36464BE256CF0AD00018FD1 /* sampleVM.swift */; };
+		A3829F69256E454000048C35 /* JWCollectionViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3829F67256E454000048C35 /* JWCollectionViewSample.swift */; };
+		A3829F6A256E454000048C35 /* JWCollectionViewSample.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3829F68256E454000048C35 /* JWCollectionViewSample.xib */; };
+		A3829F6E256E4CCF00048C35 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3829F6C256E4CCF00048C35 /* TitleCell.swift */; };
+		A3829F6F256E4CCF00048C35 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3829F6D256E4CCF00048C35 /* TitleCell.xib */; };
+		A3829F72256E533F00048C35 /* DataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3829F71256E533F00048C35 /* DataVM.swift */; };
+		A3829F79256E539D00048C35 /* JWCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3829F77256E539D00048C35 /* JWCollectionViewCell.swift */; };
+		A3829F7A256E539D00048C35 /* JWCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3829F78256E539D00048C35 /* JWCollectionViewCell.xib */; };
+		A3829F80256E549C00048C35 /* DefaultCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3829F7E256E549C00048C35 /* DefaultCollectionView.swift */; };
+		A3829F81256E549C00048C35 /* DefaultCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3829F7F256E549C00048C35 /* DefaultCollectionView.xib */; };
+		A3829F8A256E555900048C35 /* DefaultHeaderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3829F88256E555900048C35 /* DefaultHeaderCollectionViewController.swift */; };
+		A3829F8B256E555900048C35 /* DefaultHeaderCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3829F89256E555900048C35 /* DefaultHeaderCollectionViewController.xib */; };
+		A3829F90256E558C00048C35 /* DiffableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3829F8E256E558C00048C35 /* DiffableCollectionViewController.swift */; };
+		A3829F91256E558C00048C35 /* DiffableCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3829F8F256E558C00048C35 /* DiffableCollectionViewController.xib */; };
+		A3829F95256E55BD00048C35 /* DiffableHeaderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3829F93256E55BD00048C35 /* DiffableHeaderCollectionViewController.swift */; };
+		A3829F96256E55BD00048C35 /* DiffableHeaderCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3829F94256E55BD00048C35 /* DiffableHeaderCollectionViewController.xib */; };
 		A38DEC53256D01FB00D392EB /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38DEC51256D01FB00D392EB /* SampleCollectionViewCell.swift */; };
 		A38DEC54256D01FB00D392EB /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38DEC52256D01FB00D392EB /* SampleCollectionViewCell.xib */; };
 		A38DEC57256D07BD00D392EB /* UICollectionView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38DEC56256D07BD00D392EB /* UICollectionView+Extention.swift */; };
@@ -31,6 +46,21 @@
 		A36464B2256CEEAC00018FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A36464BA256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		A36464BE256CF0AD00018FD1 /* sampleVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleVM.swift; sourceTree = "<group>"; };
+		A3829F67256E454000048C35 /* JWCollectionViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWCollectionViewSample.swift; sourceTree = "<group>"; };
+		A3829F68256E454000048C35 /* JWCollectionViewSample.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JWCollectionViewSample.xib; sourceTree = "<group>"; };
+		A3829F6C256E4CCF00048C35 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		A3829F6D256E4CCF00048C35 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		A3829F71256E533F00048C35 /* DataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVM.swift; sourceTree = "<group>"; };
+		A3829F77256E539D00048C35 /* JWCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWCollectionViewCell.swift; sourceTree = "<group>"; };
+		A3829F78256E539D00048C35 /* JWCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JWCollectionViewCell.xib; sourceTree = "<group>"; };
+		A3829F7E256E549C00048C35 /* DefaultCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCollectionView.swift; sourceTree = "<group>"; };
+		A3829F7F256E549C00048C35 /* DefaultCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultCollectionView.xib; sourceTree = "<group>"; };
+		A3829F88256E555900048C35 /* DefaultHeaderCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultHeaderCollectionViewController.swift; sourceTree = "<group>"; };
+		A3829F89256E555900048C35 /* DefaultHeaderCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultHeaderCollectionViewController.xib; sourceTree = "<group>"; };
+		A3829F8E256E558C00048C35 /* DiffableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableCollectionViewController.swift; sourceTree = "<group>"; };
+		A3829F8F256E558C00048C35 /* DiffableCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiffableCollectionViewController.xib; sourceTree = "<group>"; };
+		A3829F93256E55BD00048C35 /* DiffableHeaderCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableHeaderCollectionViewController.swift; sourceTree = "<group>"; };
+		A3829F94256E55BD00048C35 /* DiffableHeaderCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiffableHeaderCollectionViewController.xib; sourceTree = "<group>"; };
 		A38DEC51256D01FB00D392EB /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 		A38DEC52256D01FB00D392EB /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
 		A38DEC56256D07BD00D392EB /* UICollectionView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extention.swift"; sourceTree = "<group>"; };
@@ -66,6 +96,8 @@
 		A36464A3256CEEAA00018FD1 /* CustomFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
+				A3829F75256E535C00048C35 /* VM */,
+				A3829F74256E534F00048C35 /* SubViews */,
 				A36464B9256CEF8A00018FD1 /* CustomLayout */,
 				A36464A4256CEEAA00018FD1 /* AppDelegate.swift */,
 				A36464A6256CEEAA00018FD1 /* SceneDelegate.swift */,
@@ -77,6 +109,8 @@
 				A36464BE256CF0AD00018FD1 /* sampleVM.swift */,
 				A38DEC51256D01FB00D392EB /* SampleCollectionViewCell.swift */,
 				A38DEC52256D01FB00D392EB /* SampleCollectionViewCell.xib */,
+				A3829F67256E454000048C35 /* JWCollectionViewSample.swift */,
+				A3829F68256E454000048C35 /* JWCollectionViewSample.xib */,
 			);
 			path = CustomFlowLayout;
 			sourceTree = "<group>";
@@ -88,6 +122,49 @@
 				A38DEC56256D07BD00D392EB /* UICollectionView+Extention.swift */,
 			);
 			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		A3829F74256E534F00048C35 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				A3829F7D256E542400048C35 /* CollectionViews */,
+				A3829F76256E536600048C35 /* Cells */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		A3829F75256E535C00048C35 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				A3829F71256E533F00048C35 /* DataVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		A3829F76256E536600048C35 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A3829F6C256E4CCF00048C35 /* TitleCell.swift */,
+				A3829F6D256E4CCF00048C35 /* TitleCell.xib */,
+				A3829F77256E539D00048C35 /* JWCollectionViewCell.swift */,
+				A3829F78256E539D00048C35 /* JWCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A3829F7D256E542400048C35 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				A3829F7E256E549C00048C35 /* DefaultCollectionView.swift */,
+				A3829F7F256E549C00048C35 /* DefaultCollectionView.xib */,
+				A3829F88256E555900048C35 /* DefaultHeaderCollectionViewController.swift */,
+				A3829F89256E555900048C35 /* DefaultHeaderCollectionViewController.xib */,
+				A3829F8E256E558C00048C35 /* DiffableCollectionViewController.swift */,
+				A3829F8F256E558C00048C35 /* DiffableCollectionViewController.xib */,
+				A3829F93256E55BD00048C35 /* DiffableHeaderCollectionViewController.swift */,
+				A3829F94256E55BD00048C35 /* DiffableHeaderCollectionViewController.xib */,
+			);
+			path = CollectionViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +225,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36464B1256CEEAC00018FD1 /* LaunchScreen.storyboard in Resources */,
+				A3829F7A256E539D00048C35 /* JWCollectionViewCell.xib in Resources */,
+				A3829F81256E549C00048C35 /* DefaultCollectionView.xib in Resources */,
 				A36464AE256CEEAC00018FD1 /* Assets.xcassets in Resources */,
+				A3829F6F256E4CCF00048C35 /* TitleCell.xib in Resources */,
+				A3829F91256E558C00048C35 /* DiffableCollectionViewController.xib in Resources */,
+				A3829F96256E55BD00048C35 /* DiffableHeaderCollectionViewController.xib in Resources */,
+				A3829F6A256E454000048C35 /* JWCollectionViewSample.xib in Resources */,
 				A38DEC54256D01FB00D392EB /* SampleCollectionViewCell.xib in Resources */,
 				A36464AC256CEEAA00018FD1 /* Main.storyboard in Resources */,
+				A3829F8B256E555900048C35 /* DefaultHeaderCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,11 +246,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36464A9256CEEAA00018FD1 /* ViewController.swift in Sources */,
+				A3829F69256E454000048C35 /* JWCollectionViewSample.swift in Sources */,
 				A36464BF256CF0AD00018FD1 /* sampleVM.swift in Sources */,
+				A3829F79256E539D00048C35 /* JWCollectionViewCell.swift in Sources */,
+				A3829F6E256E4CCF00048C35 /* TitleCell.swift in Sources */,
 				A36464A5256CEEAA00018FD1 /* AppDelegate.swift in Sources */,
 				A36464BB256CEFB100018FD1 /* JWCollectionViewFlowLayout.swift in Sources */,
+				A3829F90256E558C00048C35 /* DiffableCollectionViewController.swift in Sources */,
+				A3829F72256E533F00048C35 /* DataVM.swift in Sources */,
 				A38DEC53256D01FB00D392EB /* SampleCollectionViewCell.swift in Sources */,
+				A3829F95256E55BD00048C35 /* DiffableHeaderCollectionViewController.swift in Sources */,
+				A3829F8A256E555900048C35 /* DefaultHeaderCollectionViewController.swift in Sources */,
 				A36464A7256CEEAA00018FD1 /* SceneDelegate.swift in Sources */,
+				A3829F80256E549C00048C35 /* DefaultCollectionView.swift in Sources */,
 				A38DEC57256D07BD00D392EB /* UICollectionView+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

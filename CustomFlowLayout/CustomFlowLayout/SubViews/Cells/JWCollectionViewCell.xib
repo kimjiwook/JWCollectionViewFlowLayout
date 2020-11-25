@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="JWCollectionViewCell" customModule="CustomFlowLayout" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="117"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="117"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSh-i0-pTC">
+                        <rect key="frame" x="0.0" y="0.0" width="341" height="117"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Odr-4n-py3">
+                                <rect key="frame" x="0.0" y="0.0" width="341" height="117"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFs-HD-UpW">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="117"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqo-R4-DGE">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="117"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="yqo-R4-DGE" secondAttribute="bottom" id="IhR-sU-xWe"/>
+                                            <constraint firstAttribute="trailing" secondItem="yqo-R4-DGE" secondAttribute="trailing" id="anG-Aw-7pk"/>
+                                            <constraint firstAttribute="width" constant="40" id="gC1-sO-D4z"/>
+                                            <constraint firstItem="yqo-R4-DGE" firstAttribute="top" secondItem="SFs-HD-UpW" secondAttribute="top" id="kpt-eN-CNX"/>
+                                            <constraint firstItem="yqo-R4-DGE" firstAttribute="leading" secondItem="SFs-HD-UpW" secondAttribute="leading" id="yK8-dk-FCY"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GO8-Zd-8B5">
+                                        <rect key="frame" x="40" y="0.0" width="301" height="117"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Odr-4n-py3" firstAttribute="leading" secondItem="VSh-i0-pTC" secondAttribute="leading" id="BF6-XH-k7o"/>
+                            <constraint firstAttribute="trailing" secondItem="Odr-4n-py3" secondAttribute="trailing" id="JXF-Ut-bly"/>
+                            <constraint firstAttribute="bottom" secondItem="Odr-4n-py3" secondAttribute="bottom" id="nRr-83-hc2"/>
+                            <constraint firstItem="Odr-4n-py3" firstAttribute="top" secondItem="VSh-i0-pTC" secondAttribute="top" id="tiS-Ma-IG7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="VSh-i0-pTC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YcF-Qq-v6Y"/>
+                <constraint firstAttribute="trailing" secondItem="VSh-i0-pTC" secondAttribute="trailing" id="k7q-BJ-iml"/>
+                <constraint firstAttribute="bottom" secondItem="VSh-i0-pTC" secondAttribute="bottom" id="ueX-em-FfO"/>
+                <constraint firstItem="VSh-i0-pTC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zgw-tA-qtd"/>
+            </constraints>
+            <size key="customSize" width="341" height="117"/>
+            <connections>
+                <outlet property="lbContent" destination="GO8-Zd-8B5" id="dNY-xG-Hsa"/>
+                <outlet property="lbNumber" destination="yqo-R4-DGE" id="NRo-oq-4hc"/>
+                <outlet property="mainBackView" destination="VSh-i0-pTC" id="qlP-LN-BlF"/>
+            </connections>
+            <point key="canvasLocation" x="281.8840579710145" y="124.21875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
